@@ -1,4 +1,5 @@
-import 'package:flutter_open/Home.Screen.dart';
+import 'package:flutter_open/Calendar/Home.Screen.dart';
+import 'package:flutter_open/GanttChart/Home.Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(new MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new PersonalDialog(),
+      home: new Statistic2(),
     );
   }
 }
